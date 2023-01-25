@@ -185,40 +185,6 @@ https://asciiart.website/index.php?art=animals/frogs
         Duck’s feet can’t feel cold.
     </details>
 
-    <div>
-        <br></br>
-    </div>
-
-    <a name="contact"><b>Contact</b></a>
-
-    <form action="mailto:" method="post" enctype="text/plain">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your name..">
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Your email..">
-
-        <label for="subject">Subject:</label>
-        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-
-        <input type="submit" value="Submit">
-    </form>
-
-    <div id="product-list">
-        <template>
-          <div class="product-item">
-            <slot name="product-name">Product Name</slot>
-            <slot name="product-description">Product Description</slot>
-          </div>
-        </template>
-        <template>
-          <div class="product-item">
-            <slot name="product-name">Product Name 2</slot>
-            <slot name="product-description">Product Description 2</slot>
-          </div>
-        </template>
-    </div>
-
     <table>
         <caption>U.S. Cities with the Highest Taxes</caption>
         <colgroup>
@@ -243,11 +209,36 @@ https://asciiart.website/index.php?art=animals/frogs
             <td>15.3%</td>
         </tr>
     </table>
-      
 
-    
+    <div id="product-list">
+        <template>
+          <div class="product-item">
+            <slot name="product-name">Product Name</slot>
+            <slot name="product-description">Product Description</slot>
+          </div>
+        </template>
+        <template>
+          <div class="product-item">
+            <slot name="product-name">Product Name 2</slot>
+            <slot name="product-description">Product Description 2</slot>
+          </div>
+        </template>
+    </div>
 
-    
+    <a name="contact"><b>Contact</b></a>
+
+    <form action="mailto:" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email..">
+
+        <label for="subject">Subject:</label>
+        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
 
     <footer>
         <hr/>
