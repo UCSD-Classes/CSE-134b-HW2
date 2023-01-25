@@ -5,15 +5,83 @@
     <meta charset="UTF-8"/>
     <title>CSE 134b HW2 HTML Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="HTML"/>
+    <meta name="author" content="Jeffrey Luu"/>
+    <link href="images/favicon.ico" rel="icon"/>
+
 </head>
 
 <body>
     <header>
-
+        <img src="images/fractal.png" alt="A Mandelbrot fractal" width="200" height="200"/> 
+        <h1><i>Jeffrey Luu's Website</i></h1>
+        <nav id = topNavigation>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#labs">Labs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!--TODO Add in theme changing button-->
+                <!-- <li><a href="theme">Theme Change</a></li> -->
+            </ul>
+        </nav>
     </header>
 
+    <main>
+        <h2></h2>
+        <a name="home"><b>Home</b></a>
+
+        <section class="description">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus iure ab consequuntur?<br/> Beatae iusto itaque nobis ipsum, debitis est animi pariatur quis!<br/> Consequatur similique a omnis nostrum dignissimos corporis illum.</p>
+            <aside><p>P.S. This is <span style="color:blue">Latin!</span></p></aside>
+        </section>
+
+        <h3></h3>
+        <a name="home"><b>About</b></a>
+        <section class="about">
+            <p><strong>The text here tells you about <em>me!</em></strong></p>
+            <p>The first line of code I wrote was <code>System.out.println("Hello World")</code>!</p>
+
+        </section>
+
+        <h4></h4>
+        <a name="work"><b>Work</b></a>
+
+        <section class="img">
+            <!--TODO Add in other projects and change these into clickable buttons-->
+            <img src="images/ub.png" alt="UrBenefit, an accessible platform and social application oriented around crowdsourcing possible volunteers of humanitarian and art-based community efforts" width="200" height="200"/>
+            <img src="images/code.png" alt="Placeholder Image that says Project" width="200" height="200"/>
+            <img src="images/code.png" alt="Placeholder Image that says Project" width="200" height="200"/>
+            <img src="images/code.png" alt="Placeholder Image that says Project" width="200" height="200"/>
+            <img src="images/code.png" alt="Placeholder Image that says Project" width="200" height="200"/>
+            <img src="images/code.png" alt="Placeholder Image that says Project" width="200" height="200"/>
+        </section>
+
+    </main>
+
+    <a name="labs"><b>Labs</b></a>
+    <pre>     
+                  @..@
+                 (\--/)
+                (.>__<.)
+                ^^^  ^^^
+
+------------------------------------------------
+This ASCII pic can be found at
+https://asciiart.website/index.php?art=animals/frogs
+    </pre>
+
+    <picture>
+        <source srcset="images/ms-icon-310x310.png">
+        <img srcset="images/ms-icon-150x150.png" media="(orientation: portrait)" alt="">
+    </picture>
+
+    <a name="contact"><b><br></br>Contact</b></a>
+
     <footer>
-        
+        <hr/>
+		<p>💯This page was made with &hearts; by Jeffrey Luu 💯</p>
     </footer>
 
 </body>
