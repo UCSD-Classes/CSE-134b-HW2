@@ -41,8 +41,8 @@ Your site must contain all the following tags. **ONLY** HTML for this assignment
 - [x] a
 - [x] img
 - [x] picture
-- [] iframe
-- [] audio
+- [x] iframe
+- [x] audio
 - [] video
 - [] source
 - [] canvas*
@@ -71,8 +71,8 @@ Your site must contain all the following tags. **ONLY** HTML for this assignment
 - [] caption
 - [] col
 - [] colgroup
-- [] figure
-- [] figcaption
+- [x] figure
+- [x] figcaption
 <!--
 <style> Note: YOU MAY NOT STYLE PAGES other than using a border or simple flow to provide a base page structure.  If you have more than 3 CSS properties (total, not unique) in your file you will be deducted points.  Your effort here is to style your pages.
 
