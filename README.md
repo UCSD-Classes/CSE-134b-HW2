@@ -3,11 +3,12 @@
 ## HW2 - Plan Site and Semantic HTML Execution - Site Build Out Phase 1
 
 ### Part 1: Site Planning
+
 TODO
 Insert link to site planning doc
 
-
 ### Part 2: HTML Execution
+
 Your site must contain all the following tags. **ONLY** HTML for this assignment.
 
 - [x] html
