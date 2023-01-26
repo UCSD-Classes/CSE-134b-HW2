@@ -4,8 +4,7 @@
 
 ### Part 1: Site Planning
 
-TODO
-Insert link to site planning doc
+<https://docs.google.com/document/d/1NTzEtoo6GNK08hzgT369lO74lioTsHHLLTJnfyPrlWU/edit?usp=sharing>
 
 ### Part 2: HTML Execution
 
